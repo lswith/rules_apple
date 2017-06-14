@@ -1,11 +1,6 @@
 # Apple Rules for [Bazel](https://bazel.build)
 
-> :warning: **NOTE**: At the time of this writing, the most recent Bazel
-> release is **0.4.5.** These rules are *not* compatible with that release;
-> they are only compatible with Bazel at **master**. Until the next release of
-> Bazel, you will need to
-> [build Bazel from source](https://bazel.build/versions/master/docs/install-compile-source.html)
-> if you wish to use them.
+> :warning: These rules are only compatible with bazel versions **0.5 and above**.
 
 This repository contains rules for [Bazel](https://bazel.build) that can be
 used to bundle applications for Apple platforms. They replace the bundling
